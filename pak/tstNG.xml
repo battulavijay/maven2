@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupsTesting">
+
+
+<listeners>
+	<listener class-name="extentReports.ExtentListener1"></listener>
+</listeners>
+
+<test name="Groups">
+	          <classes>
+		  <class name="vijay.pak.maven1"></class>
+
+	          </classes>	
+	      </test>
+</suite>

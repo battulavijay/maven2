@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [GroupsTesting]">
+  <listeners>
+    <listener class-name="extentReports.ExtentListener1"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Groups(failed)">
+    <classes>
+      <class name="vijay.pak.maven1">
+        <methods>
+          <include name="Tc_3"/>
+          <include name="LaunchApp"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- vijay.pak.maven1 -->
+    </classes>
+  </test> <!-- Groups(failed) -->
+</suite> <!-- Failed suite [GroupsTesting] -->
